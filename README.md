@@ -4,6 +4,8 @@ Structured dialogue is an interaction model that enables AI and humans to jointl
 
 This approach treats AI as a collaborator—capable of retaining context, evolving ideas, and helping bridge intuition to structure.
 
+[日本語版はこちら](README_ja.md)
+
 ![Structured Dialogue Overview](./images/concept-diagram.png)
 
 
