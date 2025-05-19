@@ -8,7 +8,7 @@
 
 ```
 /
-├― README.md               # 英語版の概要ドキュメント（国際向け）
+├― README.md              # 英語版の概要ドキュメント（国際向け）
 ├― README_ja.md           # 日本語版の概要ドキュメント（実質的なメイン）
 ├― LICENSE                # ライセンス（MIT）
 ├― docs/                  # 補足ドキュメント群
@@ -42,7 +42,7 @@
 
 ## 📁 prompt\_templates/
 
-プロンプトの汚用テンプレートを格納。再利用や応用が可能。
+プロンプト用テンプレートを格納。再利用や応用が可能。
 
 * `structured_thinking_base.txt`: 構造的思考を支援する基本プロンプト
 * `dialogue_engineering_prompt.yaml`: 対話型AIに向けた制御ルールの例
@@ -54,7 +54,7 @@
 
 構造的対話の概念図、構造図などを格納。
 
-* `flowchart_structured_dialogue.png`: 構造的対話のプロセス図
+* `concept_dialogue.png`: 構造的対話のプロセス図
 * `diagram_usecase_matrix.png`: 応用領域のマトリクス図（予定）
 
 ---
