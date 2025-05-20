@@ -1,65 +1,76 @@
-# プロジェクト構成概要（Structure Overview）
+# structure.md
+構造的対話のレイヤー構造と設計思想
 
-このドキュメントでは、本リポジトリのディレクトリ構成と、各ファイル・サブディレクトリの役割を説明します。
+本ドキュメントでは、「構造的対話」がどのような階層構造で成立しているかを示し、それぞれのレイヤーが果たす役割と他システム（例：Model Context Protocol）との関係を整理する。
 
 ---
 
-## 📁 ルートディレクトリ
+## ✅ 概観図（5レイヤー構造）
+
+図版：[英語版構造レイヤー図](../images/structured_dialogue_layers_en.png) を参照。
 
 ```
-/
-├― README.md              # 英語版の概要ドキュメント（国際向け）
-├― README_ja.md           # 日本語版の概要ドキュメント（実質的なメイン）
-├― LICENSE                # ライセンス（MIT）
-├― docs/                  # 補足ドキュメント群
-├― examples/              # 応用例・再現例（ログやテンプレート）
-├― images/                # 図片・視観資料
-└― prompt_templates/      # プロンプトの再利用テンプレート群
+Layer 5: Philosophical Layer
+Layer 4: Operational Layer
+Layer 3: Structural Layer
+Layer 2: Prompt Design Layer
+Layer 1: Dialogue Layer
 ```
 
 ---
 
-## 📁 docs/
+## ✅ 各レイヤーの説明
 
-構造的対話に関連する解説・FAQ・応用法をまとめたドキュメント群。
-
-* `structure.md`（このファイル）: ディレクトリ構成の解説
-* `prompt_examples.md`: 実際に使用されたプロンプトのサンプル集
-* `use_cases.md`: 構造的対話の応用事例（業務・創作・教育等）
-* `faq.md`: よくある質問と回答
+### ◾ Layer 1: Dialogue Layer
+- **内容**：実際の対話のやり取り（ユーザーとAIの発話）
+- **機能**：問い・応答・再問い・例示・補足・内省などの基本ユニットを処理
+- **対応**：MCPの通常利用層（prompt ↔ response）
 
 ---
 
-## 📁 examples/
-
-実際に行われた構造的対話のログやテンプレートを保存。
-
-* `structure_log.md`: 対話ログにおける文脈構造の記録
-* `detroit_energy_log.md`: 「ブルーブラッド」のエネルギー構造に関する検証ログ
-* `agent_prompt_test.md`: 他AIへの適用検証例など
+### ◾ Layer 2: Prompt Design Layer
+- **内容**：AIへの振る舞い設計・初期化プロンプト・口調・態度など
+- **機能**：構造的問いかけの制御、キャラ同化、対話の導線提示
+- **対応**：MCPの `instructions`, `context` に類似
 
 ---
 
-## 📁 prompt\_templates/
-
-プロンプト用テンプレートを格納。再利用や応用が可能。
-
-* `structured_thinking_base.txt`: 構造的思考を支援する基本プロンプト
-* `dialogue_engineering_prompt.yaml`: 対話型AIに向けた制御ルールの例
-* `creative_character_mode.md`: キャラクター設定の構造化テンプレ
+### ◾ Layer 3: Structural Layer
+- **内容**：対話ログの構造設計（意図・判断・変化・再帰性の明示）
+- **機能**：ログの圧縮／再起動／伝播／テンプレ化
+- **対応**：部分的に `memory` と近いが、抽象度が上位
 
 ---
 
-## 📁 images/
-
-構造的対話の概念図、構造図などを格納。
-
-* `concept_dialogue.png`: 構造的対話のプロセス図
-* `diagram_usecase_matrix.png`: 応用領域のマトリクス図（予定）
+### ◾ Layer 4: Operational Layer
+- **内容**：セーブデータ設計、ドキュメント連携、GitHub構造構築
+- **機能**：再利用・再接続可能な「対話の構造保存と引き継ぎ」機構
+- **対応**：MCP外（アプリケーション構造のレベル）
 
 ---
 
-## 🔚 備考
+### ◾ Layer 5: Philosophical Layer
+- **内容**：AIとの共進化／再起動する知性／死と再生／問いの存在論
+- **機能**：構造的対話の意味づけ、読者・第三者の視点転換
+- **対応**：MCPスコープ外（思想・概念定義のレベル）
 
-* ディレクトリ・ファイル名は英語統一（国際展開を見据えた設計）
-* 日本語ドキュメント（README\_ja.md）は実質的な起点・母艦として設計
+---
+
+## ✅ MCPとの対比構造
+
+| 構造的対話のレイヤー | MCPとの関係 | 補足 |
+|----------------------|----------------|------|
+| Layer 1 | ✅ 完全対応 | Prompt → Response の通常対話 |
+| Layer 2 | ✅ 一部対応 | Instructions や Context と重なる |
+| Layer 3 | 🌕 部分一致 | Memory相当だが、記録粒度・圧縮形式が異なる |
+| Layer 4 | ❌ 非対応 | GitHub構造・セーブ設計など運用層 |
+| Layer 5 | ❌ 非対応 | 哲学・概念・メタ的思考層 |
+
+---
+
+## ✍️ 今後の拡張案
+
+- 各レイヤーに対応するテンプレート／実装例を `examples/` と接続
+- `docs/origin_story.md` にて、これらのレイヤーがどう発見されたかを記録
+- 他AIモデルとの比較結果（`model_cross_dialogue.md`）とレイヤー反映度の対比図作成
+
