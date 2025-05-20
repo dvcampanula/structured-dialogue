@@ -2,6 +2,9 @@
 
 > **思考の構造をAIと共に組み上げる——構造的対話を用いた、創造的かつ継続可能な知的作業支援のテンプレート集**
 
+🧭 [初めての方はこちら：読者ガイド](docs/guide_for_readers.md)
+
+
 ![構造的対話概要図](./images/concept-diagram.png)
 
 ## はじめに
@@ -49,13 +52,13 @@ AIをただのツールではなく、**思考の補助輪**や**協働者**と�
 以下のような構成で、構造的対話の考え方と実践を整理していきます：
 
 ```
-📁 docs/                # コンセプトや分類などのドキュメント
-📁 examples/            # 実際の対話ログやケーススタディ
-📁 prompts/             # プロンプトテンプレートやプロファイル定義
-📁 experiments/         # 対話実験・伝播検証・比較検証
-📁 articles/            # noteやQiita向けの原稿草案
-README.md              # 英語版のトップページ
-README.ja.md           # 日本語版トップ（このファイル）
+📁 docs/ # 構造説明・ユースケース・起源・レイヤー構造など
+📁 logs/ # 構造化された対話ログ（discovery, applications, triggers等）
+📁 prompts/ # プロンプトテンプレートやphase導入例
+📁 images/ # 図解や説明図（READMEやstructure.mdで参照）
+LICENSE
+README.md # 英語導入＋日本語READMEへのリンク
+README_ja.md # 日本語の主文書（このファイル）
 ```
 
 ---
