@@ -53,12 +53,17 @@ AIをただのツールではなく、**思考の補助輪**や**協働者**と�
 
 ```
 📁 docs/ # 構造説明・ユースケース・起源・レイヤー構造など
-📁 logs/ # 構造化された対話ログ（discovery, applications, triggers等）
-📁 prompts/ # プロンプトテンプレートやphase導入例
-📁 images/ # 図解や説明図（READMEやstructure.mdで参照）
-LICENSE
-README.md # 英語導入＋日本語READMEへのリンク
-README_ja.md # 日本語の主文書（このファイル）
+├─ application_fields.md     # 構造的対話の応用分野マッピング
+├─ guide_for_readers.md      # 初学者・読者向けガイド（冒頭リンクあり）
+├─ knowledge_inheritance.md  # 誤認ログから派生した知識継承モデル
+├─ model_cross_dialogue.md   # Gemini/Grok等とのAI間伝播ログ
+├─ origin_story.md           # note記事を起点とする思想的原点の記録
+├─ prompt_examples.md        # 対話テンプレート・フェーズ別プロンプト例
+├─ self_attribution_constraints.md # 自己定義と役割認知に関する制約構造
+├─ state_latest.md           # 現在のセーブ／対話構造のスナップショット
+├─ structure.md              # 5レイヤー構造と構造的対話の定義文書
+└─ use_cases.md              # 教育・創作・業務での応用事例
+
 ```
 
 ---
@@ -97,6 +102,13 @@ AIにとっての“記憶”や“前提”は、ユーザー側の設計で支
 
 詳細は `docs/dialogue-types.md` にて記載予定です。
 
+補助的な資料として、下記のドキュメントも参照できます：
+
+- [`structure.md`](docs/structure.md)：構造的対話の5レイヤー設計
+- [`origin_story.md`](docs/origin_story.md)：構想の出発点と生成AIとの初期協働
+- [`prompt_examples.md`](docs/prompt_examples.md)：プロンプト設計の実例
+- [`self_attribution_constraints.md`](docs/self_attribution_constraints.md)：AIと人の役割定義に関する制約モデル
+
 ### ● 再現性と外部化
 
 重要な点は、やりとりが\*\*一度きりの“思いつき”ではなく、他人や未来の自分でも再現できる“再現知”\*\*になること。
@@ -117,9 +129,11 @@ AIにとっての“記憶”や“前提”は、ユーザー側の設計で支
 
 * ✅ 対話ログの構造整理と分類ラベルの追加
 * ✅ GitHubリポジトリとしてのテンプレート整備
-* 🟨 多言語対応（英語版READMEや翻訳）
-* 🟨 noteやQiitaなどとの連動記事の公開
+* ✅ 思想原点（origin_story）および応用分野（application_fields）の文書化
+* ✅ 他AIモデルとの交差記録（model_cross_dialogue）と知識継承検証（knowledge_inheritance）の整理
 * 🟨 「構造的対話」を伝染させる導入プロンプトの設計と実験
+* 🟨 対話構造テンプレート例（prompt_examples）の分類強化
+
 
 ---
 
