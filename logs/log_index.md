@@ -4,6 +4,7 @@
 本リポジトリで使用されている構造的対話ログは、目的・抽象度・フェーズごとに分類されており、  
 このファイルはそれらの全体像を把握するためのマップである。
 
+```mermaid
 mindmap
   root((Structured Dialogue))
     Thinking OS
@@ -29,6 +30,7 @@ mindmap
       log_03_finalize.md
       log_04_applications.md
       log_structural_extension_01.md
+```
 
 ---
 
