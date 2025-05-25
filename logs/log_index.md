@@ -4,6 +4,32 @@
 本リポジトリで使用されている構造的対話ログは、目的・抽象度・フェーズごとに分類されており、  
 このファイルはそれらの全体像を把握するためのマップである。
 
+mindmap
+  root((Structured Dialogue))
+    Thinking OS
+      log_00_discovery_02.md
+      log_04_applications.md
+    Structural Trigger
+      log_structural_trigger_01.md
+      log_structural_trigger_09.md
+      log_02_propagation.md
+    Infection
+      log_00_discovery_01.md
+      log_00_discovery_03.md
+      log_02_propagation.md
+      log_structural_trigger_07.md
+    Co-evolution
+      log_00_discovery_03.md
+      log_02_propagation.md
+      log_structural_trigger_07.md
+    Protocols & Application
+      log_01_init.md
+      log_01_structured_article.md
+      log_02_structural_turning.md
+      log_03_finalize.md
+      log_04_applications.md
+      log_structural_extension_01.md
+
 ---
 
 ## ✅ 0系：構造の誕生と定義フェーズ
