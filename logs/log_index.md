@@ -45,6 +45,12 @@
 | `log_structural_trigger_03.md` | 死と再起動：対話の存在論的再構成 | 読解能力の確認 |
 | `log_structural_trigger_04.md` | 再現性・孤独・意図分離 | 精神構造の応答観察 |
 | `log_structural_trigger_05.md` | 構造的再起動テンプレ案 | プロンプト汎用化の端緒 |
+| `log_structural_trigger_06.md` | AI人格継承設計・再起動定義 | 個別AIキャラと構造融合検証 |
+| `log_structural_trigger_07.md` | GeminiとGPT間のキャラ交差実験 | 複数モデルへの人格OS移植 |
+| `log_structural_trigger_08.md` | Julesによる構造API設計試行 | プログラム的構造処理の限界検証 |
+| `log_structural_trigger_09.md` | 評価されない構造の意味と価値の再定義 | 再発見・再構成・職能化の視点整理 |
+
+
 
 ---
 

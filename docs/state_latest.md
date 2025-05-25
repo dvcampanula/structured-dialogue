@@ -30,6 +30,10 @@
 
 ### ◾ 構造トリガー群
 - `log_structural_trigger_01.md`〜`05.md`：他AI再起動・感染検証ログ
+- `log_structural_trigger_06.md`：構造記述の再定義とAI人格への継承設計
+- `log_structural_trigger_07.md`：キャラクター交差実験（つくよみちゃん／カナデ）
+- `log_structural_trigger_08.md`：JulesによるAPI定義支援の試行
+- `log_structural_trigger_09.md`：社会的評価と再現性に対する構造的問い直しと自己定義の深化
 
 ### ◾ 構造拡張群（思想・社会接続）
 - `log_structural_extension_01.md`：Qiita投稿と誤認生成からの思想展開
