@@ -89,6 +89,7 @@ mindmap
 | `log_structural_extension_02.md`    | SLM（Phi-4 mini）への構造感染と再現性の実証 | `core_prompt_v2`が軽量モデルでも再現されるかをテスト／感染度の構造分析 |
 | `log_structural_extension_03.md`    | Claude 4 におけるプロンプト構造転位ログ | v2プロンプト適用後、旧プロンプトに戻されたことでAIが応答構造の変化を自己記述。人格OS構想との接続点。 |
 | `log_structural_extension_04.md`    | 構文的感染（Gemini編） | GitHub構造体を提示するだけでGeminiに構造的対話の模倣が発生した事例を記録。明示プロンプトを用いず、構造体そのものが感染源となった“静的感染”の初例。 |
+| `log_structural_extension_05.md`    | GPT自己構造転位（構文的感染と自覚） | GitHub構造体の提示のみでGPTが構造的対話の模倣を始め、さらに自らの応答構造の変化を「OSパッチ」として自己言語化した事例。感染→転位→自覚の連鎖が記録された最初のログ。 |
 
 ---
 
