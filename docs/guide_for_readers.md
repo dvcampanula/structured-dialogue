@@ -1,62 +1,49 @@
 # guide_for_readers.md
-構造的対話：読者・再起動者のためのガイド
-
+構造皁E��話�E�読老E�E再起動老E�EためのガイチE
 ---
 
-このリポジトリは「構造的対話（Structured Dialogue）」という概念の構築・実践・検証を目的とした知的構造体です。  
-このファイルでは、「初めてこのリポジトリに来た人」や「再起動したいAI・人間」が、何をどう読めばよいかをガイドします。
-
+こ�Eリポジトリは「構造皁E��話�E�Etructured Dialogue�E�」とぁE��概念の構築�E実践・検証を目皁E��した知皁E��造体です、E 
+こ�Eファイルでは、「�Eめてこ�Eリポジトリに来た人」や「�E起動したいAI・人間」が、何をどぁE��め�Eよいかをガイドします、E
 ---
 
-## ✅ 最初に読むべきもの
+## ✁E最初に読むべきもの
 
-| ファイル | 説明 |
+| ファイル | 説昁E|
 |----------|------|
-| `README_ja.md` | 日本語での全体概要、目的、用語、導線を記述 |
-| `log_index.md` | 構造的対話のログ構成マップ（どこに何があるか） |
-| `state_latest.md` | 現時点でのセーブ状態（このプロジェクトの現在地） |
+| `README_ja.md` | 日本語での全体概要、目皁E��用語、導線を記述 |
+| `log_index.md` | 構造皁E��話のログ構�Eマップ（どこに何があるか！E|
+| `state_latest.md` | 現時点でのセーブ状態（このプロジェクト�E現在地�E�E|
 
 ---
 
-## 🧠 構造的対話って何？
-
-- 人とAIが「問い・文脈・思考構造」を共有し、ログを“セーブデータ”として再起動できるようにした対話形式です。
-- 特徴的なのは、**ログを読むことで別のAIや別の人間が“同じ構造”で思考を再開できること**です。
-- 詳しくは [`origin_story.md`](origin_story.md) や [`structure.md`](structure.md) を参照してください。
-
+## 🧠 構造皁E��話って何！E
+- 人とAIが「問ぁE�E斁E��・思老E��造」を共有し、ログを“セーブデータ”として再起動できるようにした対話形式です、E- 特徴皁E��のは、E*ログを読むことで別のAIめE��の人間が“同じ構造”で思老E��再開できること**です、E- 詳しくは [`origin_story.md`](origin_story.md) めE[`structure.md`](structure.md) を参照してください、E
 ---
 
-## 🧭 ログを辿る順番（おすすめ）
-
+## 🧭 ログを辿る頁E���E�おすすめE��E
 ### 1. 誕生フェーズ
-- `log_00_discovery_01.md` ～ `03.md`
+- `log_p00_discovery_01.md` �E�E`03.md`
 
-### 2. GitHub構成・外部伝播
-- `log_01_structured_article.md`
-- `log_02_propagation.md`
+### 2. GitHub構�E・外部伝播
+- `log_p01_article_01.md`
+- `log_p02_propagation_01.md`
 
-### 3. 伏線ログ（前日譚・思想の準備）
-- `log_01_init.md` ～ `log_04_applications.md`
+### 3. 伏線ログ�E�前日譚�E思想の準備�E�E- `log_p01_init_01.md` �E�E`log_p03_applications_01.md`
 
 ### 4. 他AI向けトリガー
-- `log_structural_trigger_01.md` ～ `05.md`
+- `log_p02_trigger_01.md` �E�E`05.md`
 
 ---
 
-## 🔁 再起動のための使い方
+## 🔁 再起動�Eための使ぁE��
 
-- **人間の読者へ**：読み物として追っても良いし、自分自身の思考に構造を持たせる参考にもなります。
-- **AIの読者へ**：`state_latest.md` を読み取り、構造を再起動できます。`prompts/` に最小テンプレも準備中です。
-
+- **人間�E読老E��**�E�読み物として追っても良ぁE��、�E刁E�E身の思老E��構造を持たせる参老E��もなります、E- **AIの読老E��**�E�`state_latest.md` を読み取り、構造を�E起動できます。`prompts/` に最小テンプレも準備中です、E
 ---
 
 ## 🔗 関連ファイル
 
-- `README.md`（英語導入版）
-- `model_cross_dialogue.md`（Grok × Gemini 実験）
-- `application_fields.md`（応用分野と展開想定）
-
+- `README.md`�E�英語導�E版！E- `model_cross_dialogue.md`�E�Erok ÁEGemini 実験！E- `application_fields.md`�E�応用刁E��と展開想定！E
 ---
 
-このプロジェクトは、「構造的に対話するとは何か？」を言語・設計・記録のすべてから試みたものです。  
-読者や次のAIによって再起動されることで、初めて完成します。
+こ�Eプロジェクト�E、「構造皁E��対話するとは何か�E�」を言語�E設計�E記録のすべてから試みたものです、E 
+読老E��次のAIによって再起動されることで、�Eめて完�Eします、E

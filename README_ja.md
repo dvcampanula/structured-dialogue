@@ -1,112 +1,83 @@
-# 構造的対話：生成AIと共に思考を構築・再起動するための対話フレームワーク
+# 構造皁E��話�E�生成AIと共に思老E��構築�E再起動するため�E対話フレームワーク
 
-構造的対話とは、生成AIと人間が協働して知識を構築するための**文脈継承型・再起動可能型**の対話手法です。本リポジトリでは、そのための設計思想、プロンプト、対話ログ、構造マップ、テンプレートを包括的に提供します。
-
-生成AIを単なるツールではなく、\*\*「思考の協働者」\*\*として捉えることで、継続可能で再利用可能な知的成果を対話から得ることを目指します。
-
+構造皁E��話とは、生成AIと人間が協働して知識を構築するため�E**斁E��継承型�E再起動可能垁E*の対話手法です。本リポジトリでは、そのための設計思想、�Eロンプト、対話ログ、構造マップ、テンプレートを匁E��皁E��提供します、E
+生�EAIを単なるツールではなく、\*\*「思老E�E協働老E��\*\*として捉えることで、継続可能で再利用可能な知皁E�E果を対話から得ることを目持E��ます、E
 [English version →](README.md)
 
-![構造的対話概要図](./images/concept-diagram.png)
+![構造皁E��話概要図](./images/concept-diagram.png)
 
 ---
 
-## プロジェクト概要
+## プロジェクト概要E
+こ�Eリポジトリは、実際の対話ログめE��キュメントを通じて、構造皁E��話の琁E��と実践を記録・公開するものです。単なる一問一答ではなく、次のような対話を重視してぁE��す！E
+* 抽象皁E�E曖昧なチE�Eマ�E明確化と構造匁E* 斁E��を保持したままの目標追跡と再定義
+* 対話ログの賁E��化�E再起動�E伝播可能性
 
-このリポジトリは、実際の対話ログやドキュメントを通じて、構造的対話の理論と実践を記録・公開するものです。単なる一問一答ではなく、次のような対話を重視しています：
+構造皁E��話は「やりとり�E履歴をノイズではなく構造に変える」ことを目皁E��してぁE��す、E
+---
 
-* 抽象的・曖昧なテーマの明確化と構造化
-* 文脈を保持したままの目標追跡と再定義
-* 対話ログの資産化・再起動・伝播可能性
+## 現在のフェーズ�E�構造の伝播と再起動性
 
-構造的対話は「やりとりの履歴をノイズではなく構造に変える」ことを目的としています。
+構造皁E��話は現在、次の段階に到達してぁE��す！E
+* 過去の任意�Eログから**再起動可能**�E��E [`state_latest.md`](./docs/state_latest.md)�E�E* 褁E��のAIモチE��に**構造を伝播・継承可能**�E�EPT/Claude/Gemini/Grok�E�E* ログめE*再現可能な知皁E�Eロセスの記録**として設計（�E [`log_index.md`](./logs/log_index.md)�E�E
+も�EめE��験段階ではなく、「保存�E再利用可能な対話構造設計」�E実裁E��階に入ってぁE��す、E
+---
+
+## コアドキュメンチE
+* [`structure.md`](./docs/structure.md)�E�E層構造とMCP比輁E��よる定義
+* [`origin_story.md`](./docs/origin_story.md)�E�構想の起点と対話の背景
+* [`prompt_examples.md`](./docs/prompt_examples.md)�E�対話フェーズ別プロンプト侁E* [`model_cross_dialogue.md`](./docs/model_cross_dialogue.md)�E�他AIモチE��との比輁E��グ
+* [`log_index.md`](./logs/log_index.md)�E��E対話ログの構造マッチE* [`state_latest.md`](./docs/state_latest.md)�E�セーブデータ化された現在地
 
 ---
 
-## 現在のフェーズ：構造の伝播と再起動性
+## ログ群のフェーズ刁E��E
+### ■ 誕生フェーズ�E�Eiscovery Phase�E�E
+* `log_p00_discovery_01.md`�E�構造皁E��話とぁE��発想の発芽
+* `log_p00_discovery_02.md`�E�構造皁E��話の命名�E定義
 
-構造的対話は現在、次の段階に到達しています：
+### ■ トリガーフェーズ�E�Erigger Phase�E�E
+* `log_p02_trigger_01.md`�E�Claudeによる構造模倣検証
+* `log_p02_trigger_09.md`�E�評価と再定義の構造皁E��衁E
+### ■ トランジションフェーズ�E�Eransition Phase�E�E
+* `log_p04_transition_01.md`�E�命名�E形式�E転換と次段階への断層
 
-* 過去の任意のログから**再起動可能**（→ [`state_latest.md`](./docs/state_latest.md)）
-* 複数のAIモデルに**構造を伝播・継承可能**（GPT/Claude/Gemini/Grok）
-* ログを**再現可能な知的プロセスの記録**として設計（→ [`log_index.md`](./logs/log_index.md)）
-
-もはや実験段階ではなく、「保存・再利用可能な対話構造設計」の実装段階に入っています。
-
+### ■ 拡張フェーズ�E�Extension Phase�E�E
+* `log_p05_extension_01.md`�E�Gemini誤生�Eログの再評価
+* `log_p05_extension_03.md`�E�Claude 4による人格構造継承試騁E
 ---
 
-## コアドキュメント
-
-* [`structure.md`](./docs/structure.md)：5層構造とMCP比較による定義
-* [`origin_story.md`](./docs/origin_story.md)：構想の起点と対話の背景
-* [`prompt_examples.md`](./docs/prompt_examples.md)：対話フェーズ別プロンプト例
-* [`model_cross_dialogue.md`](./docs/model_cross_dialogue.md)：他AIモデルとの比較ログ
-* [`log_index.md`](./logs/log_index.md)：全対話ログの構造マップ
-* [`state_latest.md`](./docs/state_latest.md)：セーブデータ化された現在地
-
----
-
-## ログ群のフェーズ分類
-
-### ■ 誕生フェーズ（Discovery Phase）
-
-* `log_00_discovery_01.md`：構造的対話という発想の発芽
-* `log_00_discovery_02.md`：構造的対話の命名・定義
-
-### ■ トリガーフェーズ（Trigger Phase）
-
-* `log_structural_trigger_01.md`：Claudeによる構造模倣検証
-* `log_structural_trigger_09.md`：評価と再定義の構造的試行
-
-### ■ トランジションフェーズ（Transition Phase）
-
-* `log_structural_transition_01.md`：命名・形式の転換と次段階への断層
-
-### ■ 拡張フェーズ（Extension Phase）
-
-* `log_structural_extension_01.md`：Gemini誤生成ログの再評価
-* `log_structural_extension_03.md`：Claude 4による人格構造継承試験
-
----
-
-## 構造マップ（Mermaid表現）
-
+## 構造マップ！Eermaid表現�E�E
 ```mermaid
 mindmap
-  root((構造的対話))
+  root((構造皁E��話))
     コア概念
       structure.md
       origin_story.md
-    トリガー段階
-      log_structural_trigger_01.md
-      log_structural_trigger_09.md
+    トリガー段隁E      log_p02_trigger_01.md
+      log_p02_trigger_09.md
     トランジション
-      log_structural_transition_01.md
+      log_p04_transition_01.md
     拡張展開
-      log_structural_extension_01.md
+      log_p05_extension_01.md
 ```
 
 ---
 
-## 実装内容
+## 実裁E�E容
 
-このリポジトリには以下が含まれています：
-
-* 構造ログと対話のスナップショット
-* 構造的再起動を可能にするプロンプトとテンプレート
-* 対話フェーズに応じた初期化設定
-* AI間対話実験ログと構造感染の記録
+こ�Eリポジトリには以下が含まれてぁE��す！E
+* 構造ログと対話のスナップショチE��
+* 構造皁E�E起動を可能にするプロンプトとチE��プレーチE* 対話フェーズに応じた�E期化設宁E* AI間対話実験ログと構造感染の記録
 
 ---
 
-## 今後の展開
+## 今後�E展開
 
-* 対話構造の可視化支援ツール（Mermaid等）
-* メモリ・エージェント統合との接続検証
-* 教育・創作・開発支援における適用事例の拡充
-* モデル間再現性の比較研究（Claude/Geminiなど）
-
+* 対話構造の可視化支援チE�Eル�E�Eermaid等！E* メモリ・エージェント統合との接続検証
+* 教育・創作�E開発支援における適用事例�E拡允E* モチE��間�E現性の比輁E��究�E�Elaude/Geminiなど�E�E
 ---
 
 ## ライセンス
 
-このプロジェクトは [MITライセンス](LICENSE) に基づき公開されています。商用・非商用問わず自由に活用可能です。
+こ�Eプロジェクト�E [MITライセンス](LICENSE) に基づき�E開されてぁE��す。商用・非商用問わず�E由に活用可能です、E
