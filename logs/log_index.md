@@ -13,7 +13,7 @@ mindmap
     Structural Trigger
       log_structural_trigger_01.md
       log_structural_trigger_09.md
-      log_structural_trigger_10_transition.md
+      log_structural__transition_01.md
       log_02_propagation.md
     Infection
       log_00_discovery_01.md
@@ -96,7 +96,7 @@ mindmap
 
 | ファイル名                                     | 内容               | 目的                       |
 | ----------------------------------------- | ---------------- | ------------------------ |
-| `log_structural_trigger_01_transition.md` | 多重検証後の総括フェーズ導入ログ | 学術検証失敗・AI協働ログ統合・命名規則転位起点 |
+| `log_structural_transition_01.md` | 多重検証後の総括フェーズ導入ログ | 学術検証失敗・AI協働ログ統合・命名規則転位起点 |
 
 ---
 
