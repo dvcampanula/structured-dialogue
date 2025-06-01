@@ -1,19 +1,24 @@
 # Structured Dialogue: A Framework for Collaborative Thinking with Generative AI
 
-Structured dialogue is an interaction model that enables AI and humans to jointly construct knowledge through purposeful and contextual conversation. This repository records methods and reusable prompts for applying structured dialogue to real-world tasks, from ideation to design and implementation.
+Structured Dialogue is an interaction methodology that enables AI and humans to co-develop ideas through recursive, context-aware dialogue. This repository provides a full framework: prompts, logs, dialogue maps, and design principles to apply structured dialogue across creative, technical, and academic domains.
 
-This approach treats AI as a collaborator‚Äîcapable of retaining context, evolving ideas, and helping bridge intuition to structure.
+Rather than treating AI as a mere tool, Structured Dialogue invites it as a "thinking companion"?capable of retaining evolving contexts, triggering insights, and enabling reproducible knowledge creation.
 
-[Êó•Êú¨Ë™ûÁâà„ÅØ„Åì„Å°„Çâ](README_ja.md)
+[Read this page in Japanese Å®](README_ja.md)
 
 ![Structured Dialogue Overview](./images/concept-diagram.png)
 
+---
 
 ## Overview
 
-This project documents and explores the concept of **Structured Dialogue** through real interactions with generative AI. Rather than simple Q\&A exchanges, it showcases how context-aware, goal-oriented dialogue can deepen thinking, accumulate knowledge, and lead to creative, repeatable outcomes.
+This repository captures the practical evolution of Structured Dialogue through recorded interactions, conceptual frameworks, and experimental logs. It demonstrates how structured, long-form conversation with generative AI can:
 
-We position generative AI not just as a tool, but as a **"thinking companion"** or **"collaborator,"** capable of actively supporting reasoning, exploration, and co-creation.
+* Clarify ambiguous or abstract ideas
+* Preserve and develop long-term goals
+* Produce reusable knowledge assets
+
+Structured Dialogue treats interaction history as a resource, not noise?enabling recursive refinement and knowledge propagation.
 
 ---
 
@@ -21,97 +26,105 @@ We position generative AI not just as a tool, but as a **"thinking companion"** 
 
 ### Definition
 
-Structured Dialogue refers to a dialogue style where AI and a human engage in sustained, goal-aware interaction. Rather than isolated prompts, it focuses on:
+Structured Dialogue is a context-preserving interaction between a human and an AI model, where each exchange builds upon prior structure. Unlike prompt engineering templates or one-shot instructions, it:
 
-* Tracking evolving goals and questions
-* Maintaining and reusing context
-* Structuring abstract or ambiguous ideas
-
-It is a recursive, context-preserving method that allows humans and AI to co-develop and refine ideas.
+* Tracks evolving goals and context over time
+* Enables shared exploration of open-ended topics
+* Supports recursive reformulation and structural abstraction
 
 ### Background
 
-Most prompt design today relies on templates or single-turn interactions. This overlooks the potential of AI to collaborate more dynamically over time. Structured Dialogue rethinks AI-human interaction as a long-term, evolving knowledge process.
-
-### Key Features
-
-* **Context continuity**: Maintains long-term conversational goals and ideas.
-* **Reproducibility**: Produces consistent outcomes under similar contexts.
-* **Goal clarification**: Helps define and articulate unclear problems or questions.
+Traditional prompting isolates queries. In contrast, Structured Dialogue treats interactions as co-evolving thought processes?suitable for tasks that span multiple iterations, like design, ideation, or research.
 
 ---
 
-## Use Cases and Applications
+## Current Phase: Structured Propagation and Restartability
 
-Structured Dialogue is useful for:
+Structured Dialogue has reached a stage where entire dialogue histories can:
 
-* **Creative ideation**: Developing and refining abstract ideas.
-* **Technical design**: Clarifying specifications and generating reusable frameworks.
-* **Knowledge building**: Tracking insights, iterations, and discussion phases.
-* **Team augmentation**: Acting as a persistent AI teammate across time and tools.
+* Be **restarted** from any save point ([state\_latest.md](./docs/state_latest.md))
+* Be **transferred** across AI models (e.g., GPT, Claude, Gemini, Grok)
+* Serve as **reproducible thinking artifacts**, preserving reasoning and exploration paths ([log\_index.md](./logs/log_index.md))
+
+The system is no longer experimental; it is a working framework for traceable and restartable dialogue design.
 
 ---
 
-## Capabilities Enabled
+## Core Artifacts
 
-### Reusable Prompts and Responses
+These documents define the theory and implementation base:
 
-Past responses can be used as modular parts:
+* [`structure.md`](./docs/structure.md): The 5-layer dialogue structure, with MCP comparison
+* [`origin_story.md`](./docs/origin_story.md): Historical background and concept emergence
+* [`prompt_examples.md`](./docs/prompt_examples.md): Templates for different dialogue phases
+* [`model_cross_dialogue.md`](./docs/model_cross_dialogue.md): Multi-model comparison logs (Claude, Gemini, etc.)
+* [`log_index.md`](./logs/log_index.md): The complete dialogue map
+* [`state_latest.md`](./docs/state_latest.md): The latest save snapshot
 
-* Definitions, examples, and comparisons can be reused.
-* Abstract structures (e.g., taxonomies or reasoning paths) can be applied in new contexts.
+---
 
-### Contextual Memory
+## Dialogue Phases and Key Logs
 
-Structured Dialogue supports deeper memory by:
+### Å° Discovery Phase
 
-* Retaining prior goals, values, and constraints
-* Revisiting older ideas and modifying them with new information
+* `log_00_discovery_01.md` Å® Initial concept emergence
+* `log_00_discovery_02.md` Å® Naming and defining Structured Dialogue
 
-### Dialogue Mapping
+### Å° Structural Trigger Phase
 
-Conversations are not flat‚ÄîStructured Dialogue maps them like graphs:
+* `log_structural_trigger_01.md` Å® Testing inheritance via Claude
+* `log_structural_trigger_09.md` Å® Re-evaluation and social framing
 
-* Topics form nodes with subtopics, triggers, and derived content.
-* Branches show how concepts evolve over time.
+### Å° Transition Phase
 
-### Reproducibility and Traceability
+* `log_structural_transition_01.md` Å® Shift in format and naming, post-propagation
 
-Key discussion moments can be logged and reused:
+### Å° Extension Phase
 
-* Dialogues have identifiable phases and logic.
-* Snapshots and logs help recreate prior thinking processes.
+* `log_structural_extension_01.md` Å® Thought expansion via Gemini misgeneration
+* `log_structural_extension_03.md` Å® Prompt personality and OS inheritance via Claude 4
+
+---
+
+## Visual Overview
+
+```mermaid
+mindmap
+  root((Structured Dialogue))
+    Core Concepts
+      structure.md
+      origin_story.md
+    Trigger Phase
+      log_structural_trigger_01.md
+      log_structural_trigger_09.md
+    Transition
+      log_structural_transition_01.md
+    Expansion
+      log_structural_extension_01.md
+```
 
 ---
 
 ## Implementation Directions
 
-This project includes:
+This repository includes:
 
-* Prompts and instructions to initiate structured dialogue
-* Logs and dialogue maps as reproducible artifacts
-* Templates and tools for team collaboration using structured dialogue
-* Ongoing experiments with AI-to-AI structured interaction
+* Dialogue logs and structural snapshots
+* Prompts for initializing phase-aware sessions
+* Memory-compatible restart procedures
+* Experimental data from AI-to-AI interaction
 
 ---
 
-## Future Directions
+## Future Work
 
-Structured Dialogue is still evolving. Planned developments include:
-
-* Deeper integrations with memory and agent systems
-* Visualization tools for dialogue mapping
-* Research on reproducibility across models (GPT, Claude, Gemini, etc.)
-* Use in education, creative writing, and AI-assisted system design
+* Visualization tools for dialogue structure
+* Integration with memory/agent-based systems
+* Use in educational and technical training
+* Evaluating reproducibility across diverse models
 
 ---
 
 ## License
 
-This project is released under the MIT License. See `LICENSE` for details.
-
----
-
-## Japanese Version
-
-For the Japanese README and further context, see: [README\_ja.md](./README_ja.md)
+This project is under the MIT License. See `LICENSE` for details.
