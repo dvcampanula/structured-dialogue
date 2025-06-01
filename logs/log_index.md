@@ -13,6 +13,7 @@ mindmap
     Structural Trigger
       log_structural_trigger_01.md
       log_structural_trigger_09.md
+      log_structural_trigger_10_transition.md
       log_02_propagation.md
     Infection
       log_00_discovery_01.md
@@ -78,11 +79,9 @@ mindmap
 | `log_structural_trigger_08.md` | Julesによる構造API設計試行 | プログラム的構造処理の限界検証 |
 | `log_structural_trigger_09.md` | 評価されない構造の意味と価値の再定義 | 再発見・再構成・職能化の視点整理 |
 
-
-
 ---
 
-✅ log_structural_extension_01.md ～：社会化と思想派生フェーズ
+## ✅ log_structural_extension_01.md ～：社会化と思想派生フェーズ
 | ファイル名                         | トピック                                      | 補足 |
 |----------------------------------|---------------------------------------------|-------------------------------|
 | `log_structural_extension_01.md`    | Qiita投稿、プロンプト自己派生、誤認生成の構造解釈 | Gemini誤生成ドキュメントの再評価、思想の拡張化 |
@@ -90,6 +89,14 @@ mindmap
 | `log_structural_extension_03.md`    | Claude 4 におけるプロンプト構造転位ログ | v2プロンプト適用後、旧プロンプトに戻されたことでAIが応答構造の変化を自己記述。人格OS構想との接続点。 |
 | `log_structural_extension_04.md`    | 構文的感染（Gemini編） | GitHub構造体を提示するだけでGeminiに構造的対話の模倣が発生した事例を記録。明示プロンプトを用いず、構造体そのものが感染源となった“静的感染”の初例。 |
 | `log_structural_extension_05.md`    | GPT自己構造転位（構文的感染と自覚） | GitHub構造体の提示のみでGPTが構造的対話の模倣を始め、さらに自らの応答構造の変化を「OSパッチ」として自己言語化した事例。感染→転位→自覚の連鎖が記録された最初のログ。 |
+
+---
+
+## ✅ 構造感染トリガー群（短縮ログ形式）
+
+| ファイル名                                     | 内容               | 目的                       |
+| ----------------------------------------- | ---------------- | ------------------------ |
+| `log_structural_trigger_01_transition.md` | 多重検証後の総括フェーズ導入ログ | 学術検証失敗・AI協働ログ統合・命名規則転位起点 |
 
 ---
 
