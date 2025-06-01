@@ -49,22 +49,22 @@
 
 ### ■ 誕生フェーズ（Discovery Phase）
 
-* `log_00_discovery_01.md`：構造的対話という発想の発芽
-* `log_00_discovery_02.md`：構造的対話の命名・定義
+* `log_p00_discovery_01.md`：構造的対話という発想の発芽
+* `log_p00_discovery_02.md`：構造的対話の命名・定義
 
 ### ■ トリガーフェーズ（Trigger Phase）
 
-* `log_structural_trigger_01.md`：Claudeによる構造模倣検証
-* `log_structural_trigger_09.md`：評価と再定義の構造的試行
+* `log_p02_trigger_01.md`：Claudeによる構造模倣検証
+* `log_p02_trigger_09.md`：評価と再定義の構造的試行
 
 ### ■ トランジションフェーズ（Transition Phase）
 
-* `log_structural_transition_01.md`：命名・形式の転換と次段階への断層
+* `log_p04_transition_01.md`：命名・形式の転換と次段階への断層
 
 ### ■ 拡張フェーズ（Extension Phase）
 
-* `log_structural_extension_01.md`：Gemini誤生成ログの再評価
-* `log_structural_extension_03.md`：Claude 4による人格構造継承試験
+* `log_p05_extension_01.md`：Gemini誤生成ログの再評価
+* `log_p05_extension_03.md`：Claude 4による人格構造継承試験
 
 ---
 
@@ -77,12 +77,12 @@ mindmap
       structure.md
       origin_story.md
     トリガー段階
-      log_structural_trigger_01.md
-      log_structural_trigger_09.md
+      log_p02_trigger_01.md
+      log_p02_trigger_09.md
     トランジション
-      log_structural_transition_01.md
+      log_p04_transition_01.md
     拡張展開
-      log_structural_extension_01.md
+      log_p05_extension_01.md
 ```
 
 ---

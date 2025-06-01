@@ -1,4 +1,4 @@
-# log_structural_trigger_09.md
+# log_p02_trigger_09.md
 
 ## 概要
 
@@ -34,4 +34,4 @@
 
 ## 保存場所
 
-- `logs/log_structural_trigger_09.md`
+- `logs/log_p02_trigger_09.md`

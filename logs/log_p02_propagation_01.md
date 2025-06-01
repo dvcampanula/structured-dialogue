@@ -1,4 +1,4 @@
-# log_02_propagation.md
+# log_p02_propagation_01.md
 構造的対話：構造の伝播と共進化フェーズ（log_25〜30 由来）
 
 ---
@@ -45,7 +45,7 @@
 
 - `model_cross_dialogue.md`：Grok × Gemini の感染実験ログ
 - `state_latest.md`：セーブ状態スナップショット
-- `log_01_structured_article.md`：記事構造の確立
+- `log_p01_article_01.md`：記事構造の確立
 - `README.ja.md`：日本語読者への構造案内
 
 ---

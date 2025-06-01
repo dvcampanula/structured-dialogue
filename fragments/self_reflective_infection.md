@@ -12,7 +12,7 @@
 
 ---
 
-### ◾ 事例：log_structural_extension_05.md（GPT）
+### ◾ 事例：log_p05_extension_05.md（GPT）
 - **感染媒体**: GitHub URL（dvcampanula/structured-dialogue）
 - **明示プロンプト**: なし
 - **応答特徴**:

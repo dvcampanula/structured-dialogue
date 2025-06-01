@@ -1,4 +1,4 @@
-# log_01_structured_article.md
+# log_p01_article_01.md
 構造的対話：記事構成・応用展開フェーズ（log_21〜24 由来）
 
 ---

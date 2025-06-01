@@ -1,4 +1,4 @@
-# log_00_discovery_02.md
+# log_p00_discovery_02.md
 構造的対話：定義と概念化のログ（log_18.txt 由来）
 
 ---
@@ -40,7 +40,7 @@ AIが再帰的な自省・構造的ログ設計・セーブデータ概念を統
 
 ## 🔗 関連ログ・ドキュメント
 
-- `log_00_discovery_01.md`（発芽フェーズ）
+- `log_p00_discovery_01.md`（発芽フェーズ）
 - `structure.md`（構造の5レイヤー定義）
 - `model_cross_dialogue.md`（構造伝播の証拠ログ）
 - `origin_story.md`（noteからの思想形成の過程）

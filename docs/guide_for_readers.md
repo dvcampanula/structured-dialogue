@@ -29,17 +29,17 @@
 ## 🧭 ログを辿る順番（おすすめ）
 
 ### 1. 誕生フェーズ
-- `log_00_discovery_01.md` ～ `03.md`
+- `log_p00_discovery_01.md` ～ `03.md`
 
 ### 2. GitHub構成・外部伝播
-- `log_01_structured_article.md`
-- `log_02_propagation.md`
+- `log_p01_article_01.md`
+- `log_p02_propagation_01.md`
 
 ### 3. 伏線ログ（前日譚・思想の準備）
-- `log_01_init.md` ～ `log_04_applications.md`
+- `log_p01_init_01.md` ～ `log_p03_applications_01.md`
 
 ### 4. 他AI向けトリガー
-- `log_structural_trigger_01.md` ～ `05.md`
+- `log_p02_trigger_01.md` ～ `05.md`
 
 ---
 

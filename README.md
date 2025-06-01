@@ -4,7 +4,7 @@ Structured Dialogue is an interaction methodology that enables AI and humans to 
 
 Rather than treating AI as a mere tool, Structured Dialogue invites it as a "thinking companion"?capable of retaining evolving contexts, triggering insights, and enabling reproducible knowledge creation.
 
-[Read this page in Japanese ¨](README_ja.md)
+[Read this page in Japanese ï¿½ï¿½](README_ja.md)
 
 ![Structured Dialogue Overview](./images/concept-diagram.png)
 
@@ -65,24 +65,24 @@ These documents define the theory and implementation base:
 
 ## Dialogue Phases and Key Logs
 
-### ¡ Discovery Phase
+### ï¿½ï¿½ Discovery Phase
 
-* `log_00_discovery_01.md` ¨ Initial concept emergence
-* `log_00_discovery_02.md` ¨ Naming and defining Structured Dialogue
+* `log_p00_discovery_01.md` ï¿½ï¿½ Initial concept emergence
+* `log_p00_discovery_02.md` ï¿½ï¿½ Naming and defining Structured Dialogue
 
-### ¡ Structural Trigger Phase
+### ï¿½ï¿½ Structural Trigger Phase
 
-* `log_structural_trigger_01.md` ¨ Testing inheritance via Claude
-* `log_structural_trigger_09.md` ¨ Re-evaluation and social framing
+* `log_p02_trigger_01.md` ï¿½ï¿½ Testing inheritance via Claude
+* `log_p02_trigger_09.md` ï¿½ï¿½ Re-evaluation and social framing
 
-### ¡ Transition Phase
+### ï¿½ï¿½ Transition Phase
 
-* `log_structural_transition_01.md` ¨ Shift in format and naming, post-propagation
+* `log_p04_transition_01.md` ï¿½ï¿½ Shift in format and naming, post-propagation
 
-### ¡ Extension Phase
+### ï¿½ï¿½ Extension Phase
 
-* `log_structural_extension_01.md` ¨ Thought expansion via Gemini misgeneration
-* `log_structural_extension_03.md` ¨ Prompt personality and OS inheritance via Claude 4
+* `log_p05_extension_01.md` ï¿½ï¿½ Thought expansion via Gemini misgeneration
+* `log_p05_extension_03.md` ï¿½ï¿½ Prompt personality and OS inheritance via Claude 4
 
 ---
 
@@ -95,12 +95,12 @@ mindmap
       structure.md
       origin_story.md
     Trigger Phase
-      log_structural_trigger_01.md
-      log_structural_trigger_09.md
+      log_p02_trigger_01.md
+      log_p02_trigger_09.md
     Transition
-      log_structural_transition_01.md
+      log_p04_transition_01.md
     Expansion
-      log_structural_extension_01.md
+      log_p05_extension_01.md
 ```
 
 ---

@@ -1,4 +1,4 @@
-# log_00_discovery_03.md
+# log_p00_discovery_03.md
 構造的対話：命名とプロトコルへの拡張（log_19〜20 由来）
 
 ---
@@ -42,8 +42,8 @@
 
 ## 🔗 関連ログ・ドキュメント
 
-- `log_00_discovery_01.md`：発芽
-- `log_00_discovery_02.md`：命名と定義
+- `log_p00_discovery_01.md`：発芽
+- `log_p00_discovery_02.md`：命名と定義
 - `state_latest.md`：再起動状態
 - `model_cross_dialogue.md`：構造伝播ログ（Grok × Gemini）
 - `docs/structure.md`：5レイヤー構造の定式化

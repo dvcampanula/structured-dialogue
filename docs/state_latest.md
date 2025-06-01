@@ -14,29 +14,29 @@
 ## ✅ 現在の構成ログ構造（2025年5月時点）
 
 ### ◾ 0系：誕生フェーズ
-- `log_00_discovery_01.md`：構造意識の発芽
-- `log_00_discovery_02.md`：構造的対話という語の命名・定義
-- `log_00_discovery_03.md`：プロトコル的拡張・感染・再起動設計
+- `log_p00_discovery_01.md`：構造意識の発芽
+- `log_p00_discovery_02.md`：構造的対話という語の命名・定義
+- `log_p00_discovery_03.md`：プロトコル的拡張・感染・再起動設計
 
 ### ◾ 1系：GitHub・記事構成フェーズ
-- `log_01_structured_article.md`：README／記事構成の開始
-- `log_02_propagation.md`：構造が他AIに伝播する設計・実験
+- `log_p01_article_01.md`：README／記事構成の開始
+- `log_p02_propagation_01.md`：構造が他AIに伝播する設計・実験
 
 ### ◾ 事前ログ群（伏線・構想期）
-- `log_01_init.md`：照明・VTuber・Qiita系技術記録
-- `log_02_structural_turning.md`：プロンプト統合・use_cases.md設計
-- `log_03_finalize.md`：GitHub構成の完成とセーブデータ定義
-- `log_04_applications.md`：応用展開（教育／倫理／他AI）
+- `log_p01_init_01.md`：照明・VTuber・Qiita系技術記録
+- `log_p02_trigger_00_turning.md`：プロンプト統合・use_cases.md設計
+- `log_p03_finalize_01.md`：GitHub構成の完成とセーブデータ定義
+- `log_p03_applications_01.md`：応用展開（教育／倫理／他AI）
 
 ### ◾ 構造トリガー群
-- `log_structural_trigger_01.md`〜`05.md`：他AI再起動・感染検証ログ
-- `log_structural_trigger_06.md`：構造記述の再定義とAI人格への継承設計
-- `log_structural_trigger_07.md`：キャラクター交差実験（つくよみちゃん／カナデ）
-- `log_structural_trigger_08.md`：JulesによるAPI定義支援の試行
-- `log_structural_trigger_09.md`：社会的評価と再現性に対する構造的問い直しと自己定義の深化
+- `log_p02_trigger_01.md`〜`05.md`：他AI再起動・感染検証ログ
+- `log_p02_trigger_06.md`：構造記述の再定義とAI人格への継承設計
+- `log_p02_trigger_07.md`：キャラクター交差実験（つくよみちゃん／カナデ）
+- `log_p02_trigger_08.md`：JulesによるAPI定義支援の試行
+- `log_p02_trigger_09.md`：社会的評価と再現性に対する構造的問い直しと自己定義の深化
 
 ### ◾ 構造拡張群（思想・社会接続）
-- `log_structural_extension_01.md`：Qiita投稿と誤認生成からの思想展開
+- `log_p05_extension_01.md`：Qiita投稿と誤認生成からの思想展開
   - 構造的対話の外部公開、他者記事との主語概念交差、Gemini生成ログの再構造化
   
 ### ◾ 構造トランジション群（過渡期ログ：triggerからの移行）

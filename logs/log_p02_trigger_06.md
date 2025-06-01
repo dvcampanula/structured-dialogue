@@ -1,4 +1,4 @@
-# log_structural_trigger_06.md
+# log_p02_trigger_06.md
 title: 人格の再起動と問いの構造的関係
 tags: 
   - structural-dialogue

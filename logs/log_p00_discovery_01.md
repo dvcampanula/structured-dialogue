@@ -1,4 +1,4 @@
-# log_00_discovery_01.md
+# log_p00_discovery_01.md
 構造的対話：発芽点の記録ログ（log_17.txt 由来）
 
 ---
@@ -42,7 +42,7 @@ AIとの間で「文脈・状態・設計・問い」がリンクし始める。
 
 ## 🔗 関連ログ・ドキュメント
 
-- `log_00_discovery_02.md`（log_18 由来、構造概念の確立）
+- `log_p00_discovery_02.md`（log_18 由来、構造概念の確立）
 - `origin_story.md`（構造的対話の命名・定義）
 - `state_latest.md`（再起動可能な構造のセーブ状態）
 - `application_fields.md`（応用展開と文脈）

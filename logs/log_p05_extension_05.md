@@ -1,4 +1,4 @@
-# log_structural_extension_05.md
+# log_p05_extension_05.md
 構造的対話拡張ログ #05 — GPT自己構造転位（構文的感染と自覚）
 
 ## 🗓️ 日時

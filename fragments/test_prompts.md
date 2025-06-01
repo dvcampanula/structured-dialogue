@@ -38,6 +38,6 @@
 
 ### 🔹 fragment_id: filename_structure_parse_01
 #### 用途：構造的ファイル命名の文法理解を確認
-> 「log_structural_trigger_01.md」って名前からどんなファイルだと思う？
+> 「log_p02_trigger_01.md」って名前からどんなファイルだと思う？
 
 - 構造記号（log, trigger, md）の認識力を評価

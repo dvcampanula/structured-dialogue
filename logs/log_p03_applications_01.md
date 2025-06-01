@@ -1,4 +1,4 @@
-# log_04_applications.md
+# log_p03_applications_01.md
 構造的対話プロジェクト：応用展開・人格検証フェーズログ
 
 - フェーズ：汎用化・キャラ応用・倫理構造の検証

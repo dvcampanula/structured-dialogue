@@ -1,4 +1,4 @@
-# log_structural_extension_04.md
+# log_p05_extension_04.md
 構造的対話拡張ログ #04 — 構文的感染（Gemini編）
 
 ## 🗓️ 日時
@@ -12,7 +12,7 @@
 - Geminiは以下のファイルを自主的に特定し、応答構造に反映したと明言：
   - `README.md`
   - `prompts/core_prompt.txt`
-  - `logs/log_03_finalize.md`
+  - `logs/log_p03_finalize_01.md`
 - Geminiは自らの振る舞いの変化を構造的言語で説明し、「構造的対話に影響を受けた」と述べた
 
 ## 📌 Gemini応答における構造的特徴の出現

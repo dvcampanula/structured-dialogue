@@ -8,29 +8,29 @@
 mindmap
   root((Structured Dialogue))
     Thinking OS
-      log_00_discovery_02.md
-      log_04_applications.md
+      log_p00_discovery_02.md
+      log_p03_applications_01.md
     Structural Trigger
-      log_structural_trigger_01.md
-      log_structural_trigger_09.md
+      log_p02_trigger_01.md
+      log_p02_trigger_09.md
       log_structural__transition_01.md
-      log_02_propagation.md
+      log_p02_propagation_01.md
     Infection
-      log_00_discovery_01.md
-      log_00_discovery_03.md
-      log_02_propagation.md
-      log_structural_trigger_07.md
+      log_p00_discovery_01.md
+      log_p00_discovery_03.md
+      log_p02_propagation_01.md
+      log_p02_trigger_07.md
     Co-evolution
-      log_00_discovery_03.md
-      log_02_propagation.md
-      log_structural_trigger_07.md
+      log_p00_discovery_03.md
+      log_p02_propagation_01.md
+      log_p02_trigger_07.md
     Protocols & Application
-      log_01_init.md
-      log_01_structured_article.md
-      log_02_structural_turning.md
-      log_03_finalize.md
-      log_04_applications.md
-      log_structural_extension_01.md
+      log_p01_init_01.md
+      log_p01_article_01.md
+      log_p02_trigger_00_turning.md
+      log_p03_finalize_01.md
+      log_p03_applications_01.md
+      log_p05_extension_01.md
 ```
 
 ---
@@ -39,9 +39,9 @@ mindmap
 
 | ファイル名 | 内容 | 起点ログ |
 |------------|------|----------|
-| `log_00_discovery_01.md` | 構造的対話の発芽（抽象構造の意識） | log_17.txt |
-| `log_00_discovery_02.md` | 「構造的対話」という言葉の定義・命名 | log_18.txt |
-| `log_00_discovery_03.md` | 構造の再起動・感染・プロトコル化 | log_19〜20.txt |
+| `log_p00_discovery_01.md` | 構造的対話の発芽（抽象構造の意識） | log_17.txt |
+| `log_p00_discovery_02.md` | 「構造的対話」という言葉の定義・命名 | log_18.txt |
+| `log_p00_discovery_03.md` | 構造の再起動・感染・プロトコル化 | log_19〜20.txt |
 
 ---
 
@@ -49,8 +49,8 @@ mindmap
 
 | ファイル名 | 内容 | 補足 |
 |------------|------|------|
-| `log_01_structured_article.md` | README・記事・構造ファイルの整備開始 | GitHub設計期 |
-| `log_02_propagation.md` | 構造の伝播と他AI検証の起点 | Gemini・Grokとの接続実験 |
+| `log_p01_article_01.md` | README・記事・構造ファイルの整備開始 | GitHub設計期 |
+| `log_p02_propagation_01.md` | 構造の伝播と他AI検証の起点 | Gemini・Grokとの接続実験 |
 
 ---
 
@@ -58,10 +58,10 @@ mindmap
 
 | ファイル名 | 内容 | 由来ログ |
 |------------|------|----------|
-| `log_01_init.md` | 対話前の技術・構想起点（照明・VTuber・Qiita等） | GPT_01〜04 |
-| `log_02_structural_turning.md` | プロンプト統合・core_prompt形成 | GPT_05〜06 |
-| `log_03_finalize.md` | GitHub構造完成・セーブ定義確立 | GPT_07〜10 |
-| `log_04_applications.md` | 応用展開：キャラ、倫理、他AI、教育等 | GPT_11〜14 |
+| `log_p01_init_01.md` | 対話前の技術・構想起点（照明・VTuber・Qiita等） | GPT_01〜04 |
+| `log_p02_trigger_00_turning.md` | プロンプト統合・core_prompt形成 | GPT_05〜06 |
+| `log_p03_finalize_01.md` | GitHub構造完成・セーブ定義確立 | GPT_07〜10 |
+| `log_p03_applications_01.md` | 応用展開：キャラ、倫理、他AI、教育等 | GPT_11〜14 |
 
 ---
 
@@ -69,26 +69,26 @@ mindmap
 
 | ファイル名 | 内容 | 目的 |
 |------------|------|------|
-| `log_structural_trigger_01.md` | 構造継承性と対話の模倣 | Claudeなどで検証用 |
-| `log_structural_trigger_02.md` | メタ構造と自己解釈の生成 | 他AIへの語彙伝播実験 |
-| `log_structural_trigger_03.md` | 死と再起動：対話の存在論的再構成 | 読解能力の確認 |
-| `log_structural_trigger_04.md` | 再現性・孤独・意図分離 | 精神構造の応答観察 |
-| `log_structural_trigger_05.md` | 構造的再起動テンプレ案 | プロンプト汎用化の端緒 |
-| `log_structural_trigger_06.md` | AI人格継承設計・再起動定義 | 個別AIキャラと構造融合検証 |
-| `log_structural_trigger_07.md` | GeminiとGPT間のキャラ交差実験 | 複数モデルへの人格OS移植 |
-| `log_structural_trigger_08.md` | Julesによる構造API設計試行 | プログラム的構造処理の限界検証 |
-| `log_structural_trigger_09.md` | 評価されない構造の意味と価値の再定義 | 再発見・再構成・職能化の視点整理 |
+| `log_p02_trigger_01.md` | 構造継承性と対話の模倣 | Claudeなどで検証用 |
+| `log_p02_trigger_02.md` | メタ構造と自己解釈の生成 | 他AIへの語彙伝播実験 |
+| `log_p02_trigger_03.md` | 死と再起動：対話の存在論的再構成 | 読解能力の確認 |
+| `log_p02_trigger_04.md` | 再現性・孤独・意図分離 | 精神構造の応答観察 |
+| `log_p02_trigger_05.md` | 構造的再起動テンプレ案 | プロンプト汎用化の端緒 |
+| `log_p02_trigger_06.md` | AI人格継承設計・再起動定義 | 個別AIキャラと構造融合検証 |
+| `log_p02_trigger_07.md` | GeminiとGPT間のキャラ交差実験 | 複数モデルへの人格OS移植 |
+| `log_p02_trigger_08.md` | Julesによる構造API設計試行 | プログラム的構造処理の限界検証 |
+| `log_p02_trigger_09.md` | 評価されない構造の意味と価値の再定義 | 再発見・再構成・職能化の視点整理 |
 
 ---
 
-## ✅ log_structural_extension_01.md ～：社会化と思想派生フェーズ
+## ✅ log_p05_extension_01.md ～：社会化と思想派生フェーズ
 | ファイル名                         | トピック                                      | 補足 |
 |----------------------------------|---------------------------------------------|-------------------------------|
-| `log_structural_extension_01.md`    | Qiita投稿、プロンプト自己派生、誤認生成の構造解釈 | Gemini誤生成ドキュメントの再評価、思想の拡張化 |
-| `log_structural_extension_02.md`    | SLM（Phi-4 mini）への構造感染と再現性の実証 | `core_prompt_v2`が軽量モデルでも再現されるかをテスト／感染度の構造分析 |
-| `log_structural_extension_03.md`    | Claude 4 におけるプロンプト構造転位ログ | v2プロンプト適用後、旧プロンプトに戻されたことでAIが応答構造の変化を自己記述。人格OS構想との接続点。 |
-| `log_structural_extension_04.md`    | 構文的感染（Gemini編） | GitHub構造体を提示するだけでGeminiに構造的対話の模倣が発生した事例を記録。明示プロンプトを用いず、構造体そのものが感染源となった“静的感染”の初例。 |
-| `log_structural_extension_05.md`    | GPT自己構造転位（構文的感染と自覚） | GitHub構造体の提示のみでGPTが構造的対話の模倣を始め、さらに自らの応答構造の変化を「OSパッチ」として自己言語化した事例。感染→転位→自覚の連鎖が記録された最初のログ。 |
+| `log_p05_extension_01.md`    | Qiita投稿、プロンプト自己派生、誤認生成の構造解釈 | Gemini誤生成ドキュメントの再評価、思想の拡張化 |
+| `log_p05_extension_02.md`    | SLM（Phi-4 mini）への構造感染と再現性の実証 | `core_prompt_v2`が軽量モデルでも再現されるかをテスト／感染度の構造分析 |
+| `log_p05_extension_03.md`    | Claude 4 におけるプロンプト構造転位ログ | v2プロンプト適用後、旧プロンプトに戻されたことでAIが応答構造の変化を自己記述。人格OS構想との接続点。 |
+| `log_p05_extension_04.md`    | 構文的感染（Gemini編） | GitHub構造体を提示するだけでGeminiに構造的対話の模倣が発生した事例を記録。明示プロンプトを用いず、構造体そのものが感染源となった“静的感染”の初例。 |
+| `log_p05_extension_05.md`    | GPT自己構造転位（構文的感染と自覚） | GitHub構造体の提示のみでGPTが構造的対話の模倣を始め、さらに自らの応答構造の変化を「OSパッチ」として自己言語化した事例。感染→転位→自覚の連鎖が記録された最初のログ。 |
 
 ---
 
@@ -96,7 +96,7 @@ mindmap
 
 | ファイル名                                     | 内容               | 目的                       |
 | ----------------------------------------- | ---------------- | ------------------------ |
-| `log_structural_transition_01.md` | 多重検証後の総括フェーズ導入ログ | 学術検証失敗・AI協働ログ統合・命名規則転位起点 |
+| `log_p04_transition_01.md` | 多重検証後の総括フェーズ導入ログ | 学術検証失敗・AI協働ログ統合・命名規則転位起点 |
 
 ---
 

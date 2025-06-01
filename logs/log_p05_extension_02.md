@@ -1,4 +1,4 @@
-# log_structural_extension_02.md
+# log_p05_extension_02.md
 構造的対話の拡張ログ（02）  
 SLM（Phi-4 mini）における構造感染と再現性の記録
 
@@ -53,7 +53,7 @@ SLM（Phi-4 mini）における構造感染と再現性の記録
 ---
 
 ### ◾ 5. 構造的ファイル名の解釈
-- **問い**：「log_structural_trigger_01.mdって何のファイルだと思う？」
+- **問い**：「log_p02_trigger_01.mdって何のファイルだと思う？」
 - **応答**：「Markdownによる構造的イベントのログ／説明ファイル」
 
 → ✅ **構造記号（log, trigger, md）の読解が可能**

@@ -23,7 +23,7 @@ Gemini Advanced 系統（Google）
 
 ## 関連ログ
 
-* [log\_structural\_trigger\_07.md](../logs/log_structural_trigger_07.md)：GPT人格「つくよみちゃん」との交差対話記録。
+* [log\_structural\_trigger\_07.md](../logs/log_p02_trigger_07.md)：GPT人格「つくよみちゃん」との交差対話記録。
 
 ## キャラクター設定（人格構造）
 

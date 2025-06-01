@@ -1,4 +1,4 @@
-# log_02_structural_turning.md
+# log_p02_trigger_00_turning.md
 構造的対話プロジェクト：構造転回フェーズログ
 
 - フェーズ：構造整備・プロンプト統合段階

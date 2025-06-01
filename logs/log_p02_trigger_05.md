@@ -1,4 +1,4 @@
-# log_structural_trigger_05.md
+# log_p02_trigger_05.md
 構造的対話：構造の萌芽と比較検証フェーズ（5）
 
 ## 概要

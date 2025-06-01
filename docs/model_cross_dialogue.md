@@ -62,4 +62,4 @@
 - 対話中盤で共鳴が発生し、「漂流構造」「再感受可能な痕跡」といった語が自然生成
 - 終盤にかけては再構造化の限界に達し、GPT応答の模倣に収束
 
-詳細ログ：[log_structural_trigger_07.md](../logs/log_structural_trigger_07.md)
+詳細ログ：[log_p02_trigger_07.md](../logs/log_p02_trigger_07.md)

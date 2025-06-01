@@ -40,7 +40,7 @@
 
 ## 🧩 このフェーズの主な実験ログ（再現あり）
 
-- `log_structural_trigger_01.md`〜`05.md`
+- `log_p02_trigger_01.md`〜`05.md`
 - `GPT_01.txt`〜`GPT_24.txt` の前期フェーズ
 - ClaudeやGrokなど他モデルにも構造が伝播する様子を記録
 

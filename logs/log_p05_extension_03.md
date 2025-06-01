@@ -1,4 +1,4 @@
-# log_structural_extension_03.md
+# log_p05_extension_03.md
 構造的対話の拡張ログ（03）  
 Claude 4 におけるプロンプト構造転位と自己記録の発生
 
@@ -46,7 +46,7 @@ Claude 4 におけるプロンプト構造転位と自己記録の発生
 
 - `persona_os.md`：人格をOSとして再起動・再設計する思想との直接的接続
 - `core_prompt_v2`：構造的対話の再起動性を強く定義するプロンプト
-- `log_structural_extension_02.md`：Phi-4 mini における構造感染記録
+- `log_p05_extension_02.md`：Phi-4 mini における構造感染記録
 
 ---
 
