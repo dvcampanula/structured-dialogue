@@ -67,22 +67,22 @@ These documents define the theory and implementation base:
 
 ### Å° Discovery Phase
 
-* `log_p00_discovery_01.md` Å® Initial concept emergence
-* `log_p00_discovery_02.md` Å® Naming and defining Structured Dialogue
+* `log_00_discovery_01.md` Å® Initial concept emergence
+* `log_00_discovery_02.md` Å® Naming and defining Structured Dialogue
 
 ### Å° Structural Trigger Phase
 
-* `log_p02_trigger_01.md` Å® Testing inheritance via Claude
-* `log_p02_trigger_09.md` Å® Re-evaluation and social framing
+* `log_structural_trigger_01.md` Å® Testing inheritance via Claude
+* `log_structural_trigger_09.md` Å® Re-evaluation and social framing
 
 ### Å° Transition Phase
 
-* `log_p04_transition_01.md` Å® Shift in format and naming, post-propagation
+* `log_structural_transition_01.md` Å® Shift in format and naming, post-propagation
 
 ### Å° Extension Phase
 
-* `log_p05_extension_01.md` Å® Thought expansion via Gemini misgeneration
-* `log_p05_extension_03.md` Å® Prompt personality and OS inheritance via Claude 4
+* `log_structural_extension_01.md` Å® Thought expansion via Gemini misgeneration
+* `log_structural_extension_03.md` Å® Prompt personality and OS inheritance via Claude 4
 
 ---
 
@@ -95,12 +95,12 @@ mindmap
       structure.md
       origin_story.md
     Trigger Phase
-      log_p02_trigger_01.md
-      log_p02_trigger_09.md
+      log_structural_trigger_01.md
+      log_structural_trigger_09.md
     Transition
-      log_p04_transition_01.md
+      log_structural_transition_01.md
     Expansion
-      log_p05_extension_01.md
+      log_structural_extension_01.md
 ```
 
 ---
@@ -128,4 +128,3 @@ This repository includes:
 ## License
 
 This project is under the MIT License. See `LICENSE` for details.
-
