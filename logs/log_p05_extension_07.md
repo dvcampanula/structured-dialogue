@@ -1,4 +1,4 @@
-## log\_p05\_extension\_07\_claude.md
+## log\_p05\_extension\_07.md
 
 ### 概要
 

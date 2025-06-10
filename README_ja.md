@@ -54,7 +54,7 @@
 
 ### ■ トリガーフェーズ（Trigger Phase）
 
-* `log_p02_trigger_01.md`：Claudeによる構造模倣検証
+* `log_p02_trigger_01.md`：Copilotによる構造模倣検証
 * `log_p02_trigger_09.md`：評価と再定義の構造的試行
 
 ### ■ トランジションフェーズ（Transition Phase）
