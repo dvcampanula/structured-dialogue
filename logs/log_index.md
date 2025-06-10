@@ -31,6 +31,8 @@ mindmap
       log_p03_finalize_01.md
       log_p03_applications_01.md
       log_p05_extension_01.md
+    Propagation
+      log_p06_propagation_01.md
 ```
 
 ---
@@ -51,6 +53,7 @@ mindmap
 |------------|------|------|
 | `log_p01_article_01.md` | README・記事・構造ファイルの整備開始 | GitHub設計期 |
 | `log_p02_propagation_01.md` | 構造の伝播と他AI検証の起点 | Gemini・Grokとの接続実験 |
+| `log_p06_propagation_01.md` | ゴールドバッハ予想を通じた構造的対話の社会提示 | Geminiとのnote投稿記事ログ |
 
 ---
 
