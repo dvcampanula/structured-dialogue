@@ -1,5 +1,7 @@
 # Structured Dialogue: A Framework for Collaborative Thinking with Generative AI
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15656833.svg)](https://doi.org/10.5281/zenodo.15656833)
+
 Structured Dialogue is an interaction methodology that enables AI and humans to co-develop ideas through recursive, context-aware dialogue. This repository provides a full framework: prompts, logs, dialogue maps, and design principles to apply structured dialogue across creative, technical, and academic domains.
 
 Rather than treating AI as a mere tool, Structured Dialogue invites it as a "thinking companion"?capable of retaining evolving contexts, triggering insights, and enabling reproducible knowledge creation.
@@ -122,6 +124,19 @@ This repository includes:
 * Integration with memory/agent-based systems
 * Use in educational and technical training
 * Evaluating reproducibility across diverse models
+
+---
+
+## 📄 Research Paper
+
+Our research paper **"Structured Dialogue: A Framework for Persistent Human-AI Collaborative Intelligence"** is now available:
+
+- **Paper PDF**: [structured-dialogue-2025.pdf](papers/structured-dialogue-2025.pdf)
+- **DOI**: [10.5281/zenodo.15656832](https://doi.org/10.5281/zenodo.15656832)
+- **Citation**: See [papers/README.md](papers/README.md)
+
+### Quick Abstract
+This paper demonstrates how dialogue logs between humans and AI can be accumulated, reused, and evolved across sessions for knowledge construction and intellectual development.
 
 ---
 
